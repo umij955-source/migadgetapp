@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiGadget App</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background:#f4f4f4;
+        }
+
+        header{
+            background:#0077ff;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+
+        nav{
+            background:#0056b3;
+            padding:10px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 15px;
+            font-weight:bold;
+        }
+
+        section{
+            padding:30px;
+        }
+
+        .card-container{
+            display:flex;
+            gap:20px;
+            flex-wrap:wrap;
+            justify-content:center;
+        }
+
+        .card{
+            background:white;
+            width:250px;
+            padding:15px;
+            border-radius:10px;
+            box-shadow:0 2px 8px rgba(0,0,0,0.2);
+            text-align:center;
+        }
+
+        .card img{
+            width:100%;
+            border-radius:8px;
+        }
+
+        button{
+            background:#0077ff;
+            color:white;
+            border:none;
+            padding:10px 15px;
+            border-radius:5px;
+            cursor:pointer;
+            margin-top:10px;
+        }
+
+        footer{
+            background:#333;
+            color:white;
+            text-align:center;
+            padding:15px;
+            margin-top:20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>MiGadget App</h1>
+        <p>Solusi Belanja Gadget Modern</p>
+    </header>
+
+    <nav>
+        <a href="#tentang">Tentang</a>
+        <a href="#produk">Produk</a>
+        <a href="#fitur">Fitur</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+
+    <section id="tentang">
+        <h2>Tentang Kami</h2>
+        <br>
+        <p>
+            Mila Tech Store adalah usaha yang bergerak di bidang penjualan
+            gadget berbasis aplikasi digital bernama MiGadget App.
+            Kami menyediakan smartphone, aksesoris, dan perangkat elektronik lainnya
+            dengan proses pembelian yang mudah, cepat, dan terpercaya.
+        </p>
+    </section>
+
+    <section id="produk">
+        <h2>Produk Unggulan</h2>
+        <br>
+
+        <div class="card-container">
+
+            <div class="card">
+                <img src="https://via.placeholder.com/250x150" alt="Smartphone">
+                <h3>Smartphone</h3>
+                <p>Harga mulai Rp2.500.000</p>
+                <button>Beli Sekarang</button>
+            </div>
+
+            <div class="card">
+                <img src="https://via.placeholder.com/250x150" alt="Headset">
+                <h3>Headset Bluetooth</h3>
+                <p>Harga mulai Rp250.000</p>
+                <button>Beli Sekarang</button>
+            </div>
+
+            <div class="card">
+                <img src="https://via.placeholder.com/250x150" alt="Smartwatch">
+                <h3>Smartwatch</h3>
+                <p>Harga mulai Rp500.000</p>
+                <button>Beli Sekarang</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="fitur">
+        <h2>Fitur MiGadget App</h2>
+        <br>
+
+        <ul>
+            <li>Login & Registrasi User</li>
+            <li>Katalog Produk</li>
+            <li>Detail Produk</li>
+            <li>Keranjang Belanja</li>
+            <li>Checkout & Pembayaran</li>
+            <li>Riwayat Transaksi</li>
+        </ul>
+    </section>
+
+    <section id="kontak">
+        <h2>Kontak</h2>
+        <br>
+        <p><b>Mila Tech Store</b></p>
+        <p>Email: milatech@gmail.com</p>
+        <p>Telepon: 0812-3456-7890</p>
+    </section>
+
+    <footer>
+        <p>© 2026 MiGadget App | Mila Tech Store</p>
+    </footer>
+
+</body>
+</html>
